@@ -1,36 +1,7 @@
-# Gabro Framework 1.0
+# Gabro Framework 2.0
 ## Jak spustit
-V počítači je nutno mít nainstalováno Node.js!!!!
+Stačí dvakrát kliknout na **run.bat**
 
-po naklonování:
-`npm i`
-pro spuštění:
-`npm start`
-
-Hlavní frameworky: material-ui, React.js
-## Theming
-U většiny komponent jde nastavit pozadí, barva apod. avšak u komponentů, které používají material-ui (tlačítka, inputy,...) se barva nastavuje v soubory **index.jsx** následovně:
-```jsx
-const theme = createMuiTheme({
-    palette: {
-        primary: {
-            main: "#ff00ff",
-            contrastText: "#ffffff"
-        },
-        secondary: {
-            main: "#FFBC42",
-            contrastText: "#000000"
-        }
-    },
-});
-```
-## Constanty
-#### SASS
-Minimální rozlišení
-```
-$break-medium: 800px;
-$break-large: 1300px;
-```
 ## Jak s frameworkem pracovat
 Vše se odehrává v souboru **App.jsx**, ten v základu vypadá nějak takto:
 ```jsx
@@ -65,6 +36,21 @@ class App extends Component {
 export default App;
 ```
 Pro dodatečné stylování slouží **App.scss**, ale smyslem frameworku je co nejméně používat vlastní styli.
+### Základní tagy html
+* V html se vždy počítá jen jedna mezera, další se předělají na jednu
+* Enter nic nedělá, pokud chcete odřádkovat použíjte odstavec
+#### Odstavec
+`<p> Obsah odstavce </p>`
+#### Nadpis
+* `<h1> Nadpis první úrovně </h1>`
+* `<h2> Nadpis druhé úrovně </h2>`
+* `<h3> Nadpis třetí úrovně </h3>`
+* adtd..
+#### Formátování textu
+* `<b> Tučný text </b>`
+* `<i> Kurzíva </i>`
+
+
 
 ### Atributy
 #### Barva obecně
