@@ -3,8 +3,8 @@ import './App.scss';
 
 
 import {
-  ContactForm
   //Here write components you want to use
+  //e.g. Section, LandingPage, Full, Half
 } from '@janskvaril/gabro-framework'
 
 function App() {
