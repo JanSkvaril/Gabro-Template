@@ -129,11 +129,11 @@ Sekce zabírá 100% šířku a nějakou výšku, může obsahovat cokoliv. Např
     styled
     color="white">
 
-    <div className="full">
+    <Full>
         <h2>O nás</h2>
         <h3>Aneb něco</h3>
         <p>Nějaký text.</p>
-    </div>
+    <Full>
 
 </Section>
 ```
