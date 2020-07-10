@@ -142,6 +142,7 @@ Sekce zabírá 100% šířku a nějakou výšku, může obsahovat cokoliv. Např
 * *shadow* - má mít stín
 * *backgroundSize* - css styl background-size, default: cover
 * *line* - barva čáry v pravo od textu, nezobrazí se pokud nebude zadána
+* *bgFilter* - "backdrop-filter", například blur(5px), apod.
 #### Half / Full / Row
 Uvnitř **Section** vždy musí být buď **half**, **full** nebo **Row**. Na poloviny je normálně možné dávat další styly. 
 
@@ -180,6 +181,10 @@ Dává obsah do řady vedle sebe, ideální na karty
 Na **všechny** lze použít následující atributy
 * *bg* - pozadí, může být i obrázek, který se bude automaticky centrovat
 * *color* - barva textu
+
+Na **Half** lze ještě použít
+* *line* - barva čáry v pravo od textu, nezobrazí se pokud nebude zadána
+* *bgFilter* - "backdrop-filter", například blur(5px), apod.
 #### Tagy speciálně stylované v Section
 * `<table> <tr> <td>`
 * `<h2> <h3>`
