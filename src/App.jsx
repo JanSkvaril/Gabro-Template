@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
 
-      {/* Write you code here */}
+       Write your code here 
 
     </div>
   );
