@@ -1,4 +1,4 @@
-# Gabro Framework 2.1
+# Gabro Framework
 ## Jak spustit
 Stačí dvakrát kliknout na **run.bat**
 
@@ -69,6 +69,10 @@ Slouží na aplikování "filtrů" na pozadí, nejčastější použití je na r
 
 * Aby toto fungovalo, bg komponenty musí být částečně nebo uplně průhledné! 
 * Hodnota 10px symbolizuje míru rozmazání - čím větší, tím větší rozmazání
+
+
+# !!! Zastaralé !!!
+Aktuální je [zde](https://janskvaril.github.io/Gabro-Framework/)
 
 ## Komponenty
 ### Navbar
