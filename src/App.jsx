@@ -5,7 +5,7 @@ import './App.scss';
 import {
   //Here write components you want to use
   //e.g. Section, LandingPage, Full, Half
-} from '@janskvaril/gabro-framework'
+} from 'gabro-framework'
 
 function App() {
   return (
